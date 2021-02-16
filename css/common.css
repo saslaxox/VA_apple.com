@@ -1,0 +1,62 @@
+
+body { color:rgb(29,29,31); }
+.cursor-pointer {cursor: pointer;}
+
+/* Text Style */
+@font-face {
+   font-family: "SF Pro KR";
+   src: url("../font/SFProKRDisplay_regular.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro KR-B";
+   src: url("../font/SFProKRDisplay_bold.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro KR-L";
+   src: url("../font/SFProKRDisplay_light.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro KR-SB";
+   src: url("../font/SFProKRDisplay_semibold.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Text";
+   src: url("../font/sf-pro-text_regular.woff2") format("woff2"); }
+   
+@font-face {
+   font-family: "SF Pro Text-B";
+   src: url("../font/sf-pro-text_bold.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Text-HV";
+   src: url("../font/sf-pro-text_heavy.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Text-L";
+   src: url("../font/sf-pro-text_light.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Text-SB";
+   src: url("../font/sf-pro-text_semibold.woff2") format("woff2"); }
+      
+@font-face {
+   font-family: "SF Pro Icons";
+   src: url("../font/sf-pro-display_regular.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Icons-SB";
+   src: url("../font/sf-pro-display_semibold.woff2") format("woff2"); }
+
+@font-face {
+   font-family: "SF Pro Icons-B";
+   src: url("../font/sf-pro-display_bold.woff2") format("woff2"); }
+         
+@font-face {
+   font-family: "SF Pro Icons-HV";
+   src: url("../font/sf-pro-display_heavy.woff2") format("woff2"); }
+            
+
+
+.c-white {
+   color: white;
+}
