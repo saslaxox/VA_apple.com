@@ -1,25 +1,26 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
-
-a { text-decoration:none; }
-
-a:hover { text-decoration: none; }
-
-div, ul, li { background-size: cover; background-repeat: no-repeat; background-position: center center; }
-
-header { width: 100%; height: auto;}
-
-div, ul, li {
-   background-size: cover;
-   background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ol, ul ,li, dl {
-   list-style:none;
-   list-style-type:none;
+ul,
+ol,
+li {
+    list-style: none;
 }
 
-button {
-   border: 0;
-   background: none;
-   cursor: pointer;
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5, 
+h6,
+p {
+    word-break: keep-all;
 }

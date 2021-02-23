@@ -1,281 +1,311 @@
-/* gnb bar */
+/* Banner CSS */
 
-header {
-   width: 100%;
-   height: 44px;
-   background-color: rgba(29, 29, 31,0.9);
-   position: fixed;
-   top: 0;
-   z-index: 1000;
+.banner_wrap { width: 100%; height: auto; margin: 44px 0 0 0;}
+.banner_text { height: 46px; text-align: center; font-size: 14px; line-height: 46px;}
+.banner_text a { color: rgb(0,102,204);}
+
+/* Hero CSS */
+
+/* Hero 1 iPhone 12 */
+
+.hero_1_wrap { width: 100%; height:692px; background-color: rgb(251,251,253); text-align: center; padding: 55px 0 0 0; background-image: url(../img/hero_iphone12.jpg); background-size: auto; background-position: center bottom;
+cursor: pointer;}
+.hero_1_a {display: block; width: 100%; height: 100%; }
+
+.hero_headline_black { color:rgb(29,29,31);}
+.hero_subhead_black { margin: 6px 0 0 0; color:rgb(29,29,31);}
+.hero_price_info {margin: 13.6px 0 0 0; color:rgb(134,134,139);}
+.hero_price_info sup { vertical-align: middle;}
+.hero_link_whitebg { margin: 13.65px 0 0 0;}
+.hero_link_whitebg a { margin: 0 16px; font-size: 21px; line-height: 32px; letter-spacing: 0.2px; color:rgb(0,102,204);}
+
+
+/* Hero 2 iPhone 12 Pro*/
+
+.hero_2_wrap { width: 100%; height:692px; background-color: rgb(0,0,0); text-align: center; padding: 55px 0 0 0; background-image: url(../img/hero_iphone12_pro.jpg); background-size: auto; background-position: center bottom; margin: 12px 0 0 0;
+   cursor: pointer;}
+
+.hero_headline_white { color:rgb(245,245,247);}
+.hero_subhead_white { margin: 6px 0 0 0; color:rgb(245,245,247);}
+.hero_link_blackbg { margin: 13.65px 0 0 0;}
+.hero_link_blackbg a { margin: 0 16px; font-size: 21px; line-height: 32px; letter-spacing: 0.2px; color:rgb(41,151,255);}
+
+/* Hero 3 iPad Air*/
+
+.hero_3_wrap { width: 100%; height:692px; background-color: rgb(251,251,253); text-align: center; padding: 55px 0 0 0; background-image: url(../img/hero_ipad_air.jpg); background-size: auto; background-position: center bottom; margin: 12px 0 0 0; background-repeat: no-repeat;
+   cursor: pointer;}
+
+/* Section Promotion */
+
+/* Promotion 1 Apple Watch */
+
+.promo_wrap { width: 100%; height: auto;}
+
+.promo { width: 100%; display: flex; flex-wrap: wrap; padding: 12px 6px 0;}
+
+.promo_1 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+background-color: rgb(0,0,0); text-align: center; 
+background-image: url(../img/promo_watch_1.jpg); background-size: auto; background-position: center bottom;
+background-repeat: no-repeat; padding: 40px 0 0 0; 
+cursor: pointer;}
+.promo_1 img {height: 50px; vertical-align: middle;}
+.promo_subhead_white { font-size: 21px; line-height: 26px; letter-spacing: 0.336px; color:rgb(245,245,247);
+margin: 11px 0 0 0;}
+.promo_link_blackbg { margin:11.9px;}
+.promo_link_blackbg a { margin: 0 14px; font-size: 17px; line-height: 23px; letter-spacing: 0; color:rgb(41,151,255);}
+
+/* Promotion 2 Apple Watch */
+
+.promo_2 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+   background-color: rgb(0,0,0); text-align: center; 
+   background-image: url(../img/promo_watch_2.jpg); background-size: auto; background-position: center bottom;
+   background-repeat: no-repeat; padding: 57px 0 0 0;
+   cursor: pointer;
+   }
+.promo_2 img {height: 57px; vertical-align: middle;}
+
+/* Promotion 3 MacBook Pro */
+
+.promo_3 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+   background-color: rgb(0,0,0); text-align: center; 
+   background-image: url(../img/promo_macbook_1.jpg); background-size: auto; background-position: center bottom;
+   background-repeat: no-repeat; padding: 29px 0 0 0;
+   cursor: pointer;}
+
+.promo_eyebrow { color:rgb(245,245,247); } 
+.promo_headline_white { color:rgb(245,245,247); font-size: 40px; line-height: 44px; margin: 2px 0 0 0; }
+.promo_3 h3 { margin: 4px 0 0 0;}
+
+/* Promotion 4 MacBook Air */
+
+.promo_4 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+   background-color: rgb(0,0,0); text-align: center; 
+   background-image: url(../img/promo_macbook_2.jpg); background-size: auto; background-position: center bottom;
+   background-repeat: no-repeat; padding: 53px 0 0 0; 
+   cursor: pointer;}
+.promo_4 h3 { margin: 4px 0 0 0;}
+
+
+/* Promotion 5 여의도 오픈 */
+
+.promo_5 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+   background-color: rgb(251,251,253); text-align: center; 
+   background-image: url(../img/promo_5.jpg); background-size: auto; background-position: center bottom;
+   background-repeat: no-repeat; padding: 53px 0 0 0; 
+   cursor: pointer;}
+
+.promo_headline_black { color:rgb(29,29,31); font-size: 40px; line-height: 44px; margin: 2px auto 0;
+width: 480px;  }
+.promo_5 h3 { margin: 4px 0 0 0;}
+
+.promo_link_whitebg { margin:11.9px;}
+.promo_link_whitebg a { margin: 0 14px; font-size: 17px; line-height: 23px; letter-spacing: 0; color:rgb(0,102,204);}
+
+/* Promotion 6 아카데미 이벤트 */
+
+.promo_6 { width:calc(50% - 12px); height: 580px; margin: 0 6px 12px;
+   background-color: rgb(241,241,243); text-align: center; 
+   background-image: url(../img/promo_6.jpg); background-size: auto; background-position: center bottom;
+   background-repeat: no-repeat; padding: 53px 0 0 0; 
+   cursor: pointer;}
+
+
+@media screen and (max-width:1068px) {
+
+/* Hero CSS */
+
+/* Hero 1 iPhone 12 */
+
+.hero_1_wrap, .hero_2_wrap, .hero_3_wrap  { height:650px; padding: 61px 0;  }
+
+.hero_1_wrap { background-size: auto 686px;}
+
+.hero_subhead_black { margin: 5px 0 0 0; }
+.hero_price_info {margin: 13.6px 0 0 0; }
+.hero_link_whitebg { margin: 14.06px 0 0 0;}
+.hero_link_whitebg a {  font-size: 19px; line-height: 25px;}
+
+.hero_2_wrap { background-size: auto 686px;}
+.hero_subhead_white { margin: 5px 0 0 0; }
+.hero_link_blackbg { margin: 14.06px 0 0 0;}
+.hero_link_blackbg a {  font-size: 19px; line-height: 25px;}
+
+.hero_3_wrap { background-size: auto 400px; background-position: center 220px;}
+
+
+/* Section Promotion */
+
+/* Promotion 1 Apple Watch */
+
+.promo_1 { height: 490px; padding: 26px 0 0 0; background-size: auto 320px; }
+
+.promo_1 img {height: 46px;}
+
+.promo_subhead_white { font-size: 19px; line-height: 25px; letter-spacing: 0.2px; color:rgb(245,245,247);
+margin: 9px 0 0 0;}
+.promo_link_blackbg { margin:13.6px;}
+
+/* Promotion 2 Apple Watch */
+
+.promo_2 { height: 490px; padding: 44px 0 0 0; background-size: auto 490px; }
+
+.promo_2 img {height: 47px;}
+
+
+/* Promotion 3 MacBook Pro */
+
+.promo_3 { height: 490px; padding: 19px 0 0 0; background-size: auto 440px; }
+
+
+/* Promotion 4 MacBook Pro */
+
+.promo_4 { height: 490px; padding: 42px 0 0 0; background-size: auto 440px; }
+
+
+/* Promotion 5 여의도 오픈 */
+
+.promo_5 { height: 490px; background-size: auto 420px; padding: 42px 0 0 0; 
+   }
+
+.promo_headline_black {  font-size: 32px; line-height: 36px; margin: 2px auto 0;
+   width: 250px; }
+
+.promo_link_whitebg { margin:13.6px;}
+
+
+/* Promotion 6 아카데미 이벤트 */
+
+.promo_6 { height: 490px; background-image: url(../img/promo_6_v.jpg); background-size: auto 490px; padding: 42px 0 0 0; }
+
+
+}
+@media screen and (max-width:740px) {
+   .banner_wrap {
+       height: 64px;
+       margin: 48px 0 0 0;
+       padding: 10px 0 0 0;
+      }
+   .banner_text {
+      width: 300px;
+      height: auto; 
+      line-height: 22px;
+      margin: 0 auto;
+   }
+
+   .hero_1_wrap, .hero_2_wrap, .hero_3_wrap  {
+      height:500px;
+      padding: 37px 0;  
+   }
+
+   .hero_1_wrap { 
+      background-image: url(../img/hero_iphone_12_m.jpg);
+      background-size: 734px 548px;
+   }
+   
+   .hero_subhead_black {
+       margin: 2px 0 0 0; 
+      }
+   .hero_price_info {
+      margin: 13.6px auto 0;
+      font-size: 14px;
+      line-height: 22px;
+      width: 140px;
+   }
+   .hero_link_whitebg {
+      margin: 13.3px 0 0 0;
+   }
+   .hero_link_whitebg a {
+        font-size: 19px;
+        line-height: 25px;
+        margin: 0 14px;
+      }
+   
+   .hero_2_wrap {
+      background-image: url(../img/hero_iphone12_pro_m.jpg);
+      background-size: 734px 548px;
+   }
+   .hero_subhead_white {
+      margin: 2px 0 0 0; 
+   }
+   .hero_link_blackbg {
+      margin: 13.3px 0 0 0;
+   }
+   .hero_link_blackbg a { 
+      font-size: 19px;
+      line-height: 25px;
+      margin: 0 14px;
+   }
+   
+   .hero_3_wrap {
+      background-image: url(../img/hero_ipad_air_m.jpg);
+      background-size: 734px 548px;
+      background-position: center bottom;
+      padding: 390px 0 0 0;
+   }
+   .hero_3_wrap h2 {
+      display: none;
+   }
+
+   .promo {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       padding: 12px 0px 0;
+      }
+   .promo_1 { 
+      height: 500px;
+      padding: 22px 0 0 0;
+      background-size: auto 320px; 
+      width: 100%;
+      margin: 0 0 12px;
+   }
+   .promo_link_blackbg {
+      margin:13.94px;
+   }
+   .promo_2 {
+      height: 500px;
+      padding: 22px 0 0 0;
+      background-size: auto 510px; 
+      width: 100%;
+      margin: 0 0 12px; 
+   }
+   .promo_3 {
+      height: 500px;
+      padding: 39px 0 0 0;
+      background-size: auto 400px; 
+      width: 100%;
+      margin: 0 0 12px; 
+      background-position: center 100px;
+   }
+   .promo_4 {
+      height: 500px;
+      padding: 39px 0 0 0;
+      background-size: auto 400px; 
+      width: 100%;
+      margin: 0 0 12px; 
+      background-position: center 80px;
+   }
+   .promo_5 {
+      height: 500px;
+      padding: 37px 0 0 0;
+      background-image: url(../img/promo_medium_apple_1068.jpg);
+      background-size: auto 400px; 
+      width: 100%;
+      margin: 0 0 12px; 
+      background-position: center 70px;
+   }
+   .promo_6 {
+      height: 500px;
+      padding: 37px 0 0 0;
+      background-size: auto 400px; 
+      width: 100%;
+      margin: 0 0 12px; 
+      background-position: center 70px;
+   }
+
+
+
 }
 
-.gnb_wrap { 
-   width: 1000px;
-   height: 44px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: space-between;
-}
-
-.gnb_wrap ul { 
-   display: flex;
-   justify-content: center;
-}
 
 
-.gnb_wrap ul li {
-   font-family: "SF Pro Text";
-   padding: 0 40px;
-   color:rgb(245,245,247);
-   font-size: 13px;
-   font-weight: 200;
-   line-height: 44px;
-}
-
-.gnb_wrap ul li a {
-   color:rgb(245,245,247);
-}
-
-
-/* hero */
-
-
-main {
-   font-family: "SF Pro Text";
-}
-
-.main_banner_wrap {
-   width: 100%;
-   height: 46px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-size: 13px;
-   font-weight: 400;
-   line-height: 22px;
-   color: #1d1d1f;
-   padding-top: 70px;
-}
-.main_banner_wrap a{
-   color: #06c;
-}
-
-.main_banner_wrap a:hover {
-   text-decoration: underline;
-}
-
-.main_text {
-   text-align: center;
-   color: #1D1D1F;
-   padding-top: 66px;
-}
-
-.main_text h2 { 
-   font-size: 56px;
-
-   font-weight: 600;
-   line-height: 66px;
-}
-
-.main_subtitle {
-   font-size: 28px;
-   line-height: 31px;
-   margin-top: 6px;
-}
-
-.main_coast {
-   color: rgb(134, 134, 139);
-   font-size: 16px;
-   line-height: 27px;
-   margin-top: 15px;
-   font-family: "SF Pro Text-L";
-}
-
-.main_link {
-   color: rgb(0, 102, 204);
-   font-size: 21px;
-   display: flex;
-   justify-content: center;
-   margin-top: 15px;
-}
-
-.main_buy:hover , .main_more:hover {
-   text-decoration: underline;
-}
-
-.main_more {
-   margin-left: 35px;
-}
-
-.main {
-   width: 100%;
-   height: 624px;
-   background-image: url(../img/hero.jpg);
-}
-
-.main1 {
-   width: 100%;
-   height: 624px;
-   background-image: url(../img/main1.jpg);
-   margin-top: 12px;
-}
-
-.main2 {
-   margin-top: 12px;
-}
-
-.main2 .img {
-   width: 1155px;
-   height: 387px;
-   background-image: url(../img/main2.jpg);
-   margin: 0 auto;
-}
-
-/* contents box */
-
-
-.contents_box_wrap{
-   display: flex;
-   margin: 0 6px;
-   flex-wrap: wrap;
-}
-
-.contents_box_1 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-color: #000000;
-}
-
-.contents_box_1 .box_text .img_top {
-   width: 128px;
-   height: 50px;
-   background-image: url(../img/DM_20210216135755_001.png);
-   margin: 0 auto;
-}
-
-.contents_box_1 .box_text .img_bottom {
-   width: 230px;
-   height: 340px;
-   background-image: url(../img/DM_20210216135755_001.jpg);
-   margin: 0 auto;
-   margin-top: 30px;
-}
-
-.box_text, .box_text2 {
-   text-align: center;
-   color: #1D1D1F;
-   padding-top: 50px;
-}
-
-.box_text h2 { 
-   font-size: 56px;
-
-   font-weight: 600;
-   line-height: 66px;
-}
-
-.box_subtitle {
-   font-size: 21px;
-   margin-top: 20px;
-}
-
-
-.box_link {
-   color: rgb(0, 102, 204);
-   font-size: 17px;
-   display: flex;
-   justify-content: center;
-   margin-top: 20px;
-}
-
-.box_buy:hover , .box_more:hover {
-   text-decoration: underline;
-}
-
-.box_more {
-   margin-left: 35px;
-}
-
-.contents_box_2 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-image: url(../img/DM_20210216135801_001.jpg);
-}
-
-.contents_box_2 .box_text2 .img_top {
-   width: 128px;
-   height: 50px;
-   background-image: url(../img/DM_20210216135755_001.png);
-   margin: 0 auto;
-}
-
-.box_text2 {
-   text-align: center;
-   padding-top: 50px;
-}
-
-.box_text2 p {
-   font-size: 17px;
-}
-
-.box_text2 h2{
-   font-size: 40px;
-}
-.contents_box_3 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-image: url(../img/DM_20210216135802_001.jpg);
-}
-
-.contents_box_3 .box_subtitle {
-   margin-top: 7px;
-}
-
-.contents_box_4 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-image: url(../img/DM_20210216135759_001.jpg);
-}
-
-.contents_box_5 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-image: url(../img/DM_20210216135758_001.jpg);
-}
-
-.contents_box_6 {
-   width: calc(50% - 12px);
-   height: 580px;
-   margin: 6px 6px;
-   background-color: #F1F1F3;
-}
-
-.img_bottom6 {
-   background-image: url(../img/DM_20210216135800_001.jpg);
-   width:  695px;
-   height: 386px;
-}
-
-footer {
-   width: 100%;
-   height: 546px;
-   background-color: #F5F5F7;
-}
-
-.footer_wrap {
-   width: 980px;
-   margin: 0 auto;
-}
-
-.footer_1 {
-   font-size: 12px;
-   color: #86868b;
-   line-height: 16px;
-   padding: 17px 0 11px;
-   border-bottom: 1px solid #d2d2d7
-}
