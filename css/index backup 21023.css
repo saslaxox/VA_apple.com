@@ -123,7 +123,7 @@ width: 480px;  }
 .hero_subhead_black { margin: 5px 0 0 0; }
 .hero_price_info {margin: 13.6px 0 0 0; }
 .hero_link_whitebg { margin: 14.06px 0 0 0;}
-.hero_link_whitebg a {  font-size: 19px; line-height: 25px; }
+.hero_link_whitebg a {  font-size: 19px; line-height: 25px;}
 
 .hero_2_wrap { background-size: auto 686px;}
 .hero_subhead_white { margin: 5px 0 0 0; }
@@ -188,64 +188,87 @@ margin: 9px 0 0 0;}
 
 .banner_text { width: 300px; height: auto;  font-size: 14px; line-height: 22px; margin:0 auto;}
 
+
+
+
+
+
+
+
+
+
+Hero CSS
+
+/* Hero 1 iPhone 12 */
+
+.hero_1_wrap, .hero_2_wrap, .hero_3_wrap { height:500px;  padding: 37px 0 0 0; }
+
+
+
+/* Promotion CSS */
+
+.promo { width: 100%; display: flex; flex-wrap: wrap; padding: 12px 0 0; }
+
+
+
+.promo_1, .promo_2, .promo_3, .promo_4, .promo_5, .promo_6 { width:100%;  height: 500px; margin: 0 0 12px; }
+
+
+
 /* Hero CSS */
 
 /* Hero 1 iPhone 12 */
 
-.hero_1_wrap, .hero_2_wrap, .hero_3_wrap  { height:500px; padding: 37px 0 0;  }
+.hero_1_wrap, .hero_2_wrap, .hero_3_wrap  { height:500px; padding: 37px 0;  }
 
 .hero_1_wrap { background-image: url(../img/hero_iphone_12_m.jpg); background-size: 734px 548px;}
 
 .hero_subhead_black { margin: 2px 0 0 0; }
-.hero_price_info {margin: 13.6px auto 0; font-size: 14px; line-height: 22px; }
-.hero_price_info span {display: block;}
+.hero_price_info {margin: 13.6px 0 0 0; }
 .hero_link_whitebg { margin: 13.3px 0 0 0;}
-.hero_link_whitebg a {  font-size: 19px; line-height: 25px; margin: 0 14px;}
-
+.hero_link_whitebg a {  font-size: 19px; line-height: 25px; margin: 0 13px; }
 
 .hero_2_wrap { background-image: url(../img/hero_iphone12_pro_m.jpg); background-size: 734px 548px;}
-
 .hero_subhead_white { margin: 2px 0 0 0; }
 .hero_link_blackbg { margin: 13.3px 0 0 0;}
-.hero_link_blackbg a {  font-size: 19px; line-height: 25px; margin: 0 14px;}
+.hero_link_blackbg a {  font-size: 19px; line-height: 25px;}
 
-.hero_3_wrap { background-image: url(../img/hero_ipad_air_m.jpg); background-size: 734px 548px; background-position: center bottom; padding: 388px 0 0;  }
+.hero_3_wrap { background-image: url(../img/hero_ipad_air_m.jpg); background-size: 734px 548px; background-position: center -40px; padding-top:400px;}
 
 .hero_3_wrap h2 { display: none;}
 
-
 /* Section Promotion */
-
-
-.promo_wrap { width: 100%; height: auto;}
-
-.promo { width: 100%; display: flex; flex-wrap: wrap; padding: 12px 0px 0;}
-
 
 /* Promotion 1 Apple Watch */
 
+.promo_1 { height: 490px; padding: 26px 0 0 0; background-size: auto 320px; }
 
-.promo_1 { height: 500px; padding: 22px 0 0 0; background-size: auto 320px;  width:100%; margin:0 0 12px;}
+.promo_1 img {height: 46px;}
 
-.promo_link_blackbg { margin:13.94px; }
+.promo_subhead_white { font-size: 19px; line-height: 25px; letter-spacing: 0.2px; color:rgb(245,245,247);
+margin: 9px 0 0 0;}
+.promo_link_blackbg { margin:13.9px;}
 
 /* Promotion 2 Apple Watch */
 
-.promo_2 { height: 500px; padding: 39px 0 0 0;   width:100%; margin:0 0 12px; background-size: auto 510px; }
+.promo_2 { height: 490px; padding: 44px 0 0 0; background-size: auto 490px; }
+
+.promo_2 img {height: 47px;}
+
 
 /* Promotion 3 MacBook Pro */
 
-.promo_3 { height: 500px; padding: 39px 0 0 0;   width:100%; margin:0 0 12px; background-size: auto 370px;  background-position: center 90px;}
+.promo_3 { height: 490px; padding: 19px 0 0 0; background-size: auto 440px; }
 
 
 /* Promotion 4 MacBook Pro */
 
-.promo_4 { height: 500px; padding: 39px 0 0 0;   width:100%; margin:0 0 12px; background-size: auto 370px; background-position: center 70px; }
+.promo_4 { height: 490px; padding: 42px 0 0 0; background-size: auto 440px; }
 
 
 /* Promotion 5 여의도 오픈 */
 
-.promo_5 { height: 500px; padding: 37px 0 0 0;   width:100%; margin:0 0 12px;  background-size: auto 400px; background-position: center 50px;
+.promo_5 { height: 490px; background-size: auto 420px; padding: 42px 0 0 0; 
    }
 
 .promo_headline_black {  font-size: 32px; line-height: 36px; margin: 2px auto 0;
@@ -256,7 +279,7 @@ margin: 9px 0 0 0;}
 
 /* Promotion 6 아카데미 이벤트 */
 
-.promo_6 { height: 500px; padding: 37px 0 0 0;   width:100%; margin:0 0 12px; background-image: url(../img/promo_6_v.jpg); background-size: auto 500px;  }
+.promo_6 { height: 490px; background-image: url(../img/promo_6_v.jpg); background-size: auto 490px; padding: 42px 0 0 0; }
 
 }
 

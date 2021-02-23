@@ -11,7 +11,7 @@
    <link rel="icon" href="img/favicon.png">
    <link rel="icon" type="image/x-icon" href="img/favicon.ico"> 
 
-   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/reset_apple.css">
    <link rel="stylesheet" href="css/common.css">
    <link rel="stylesheet" href="css/header.css">
    <link rel="stylesheet" href="css/footer.css">
@@ -19,6 +19,7 @@
 </head>
 <body>
    <header>
+      <!-- PC, Tablet용 GNB -->
       <nav class="gnb">
          <ul class="gnb_menu">
             <li class="gnb_logo"><a href=""></a></li>
@@ -30,6 +31,15 @@
             <li class="gnb_menu_item"><a href="">고객지원</a></li>
             <li class="gnb_search"><a href=""></a></li>
             <li class="gnb_bag"><a href=""></a></li>
+         </ul>
+      </nav>
+
+      <!-- Mobile용 GNB -->
+      <nav class="gnb_m">
+         <ul class="gnb_m_menu">
+            <li class="gnb_m_menubar"><a href=""></a></li>
+            <li class="gnb_m_logo"><a href=""></a></li>
+            <li class="gnb_m_bag"><a href=""></a></li>
          </ul>
       </nav>
    </header>
@@ -51,7 +61,7 @@
          <div class="hero_1_wrap" onclick="document.location='https://www.apple.com/kr/iphone-12/'">   
                <h2 class="hero_headline_black">iPhone 12</h2>
                <h3 class="hero_subhead_black">스피드 그 이상의 스피드.</h3>
-               <p class="hero_price_info">가격은 &#65510;950,000부터(보상 판매<sup>*</sup> 미적용)</p>
+               <p class="hero_price_info"><span>가격은 &#65510;950,000부터</span>(보상 판매<sup>*</sup> 미적용)</p>
                <div class="hero_link_whitebg">
                   <a href="https://www.apple.com/kr/iphone-12/">더 알아보기 &#8250;</a>
                   <a href="https://www.apple.com/kr/shop/buy-iphone/iphone-12">구입하기 &#8250;</a>
@@ -63,7 +73,7 @@
          <div class="hero_2_wrap" onclick="document.location=''">
             <h2 class="hero_headline_white">iPhone 12 Pro</h2>
             <h3 class="hero_subhead_white">도약의 시간.</h3>
-            <p class="hero_price_info">가격은 &#65510;1,350,000부터(보상 판매<sup>*</sup> 미적용)</p>
+            <p class="hero_price_info"><span>가격은 &#65510;1,350,000부터</span>(보상 판매<sup>*</sup> 미적용)</p>
             <div class="hero_link_blackbg">
                <a href="">더 알아보기 &#8250;</a>
                <a href="">구입하기 &#8250;</a>
@@ -195,7 +205,7 @@
             </div>
             <div class="footer_nav_wrap">
                <ul>
-                  <h4><span>Apple store</span><span>+</span></h4>
+                  <h4><span>Apple Store</span><span>+</span></h4>
                   <li><a herf="">매장 찾기</a></li>
                   <li><a herf="">온라인에서 쇼핑하기</a></li>
                   <li><a herf="">Genius Bar</a></li>
@@ -245,15 +255,14 @@
             다양한 쇼핑 방법: <a href="">Apple Store</a>를 방문하거나, <a href="">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.
          </p>
          <div class="footer_legal">
-            <div class="footer_copy">
+            <div>
                <p class="footer_copyright">Copyright © 2021 Apple Inc. 모든 권리 보유.</p>
                <p class="footer_legal_link"> 
                   <a href="">개인정보 처리방침</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">웹 사이트 이용 약관</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">판매 및 환불 법적 고지</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">사이트 맵</a>
                </p>
             </div>
-             <div class="footer_nation">
-               <p class="footer_local"><a href="">대한민국</a></p>
-            </div> 
+
+            <p class="footer_local"><a href="">대한민국</a></p>
          </div>
          <p class="footer_address">
             <span>사업자등록번호 : 120-81-84429 | </span> <span>통신판매업신고번호 : 제 2011-서울강남-00810호 | </span> <span>대표이사 : PETER DENWOOD | </span> <span>주소 : 서울 특별시 강남구 영동대로 517 |</span> 대표전화 : 02-6712-6700 | </span>팩스 : 02-6928-0000

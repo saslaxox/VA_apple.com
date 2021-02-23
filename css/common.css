@@ -139,8 +139,10 @@ p {  }
       
       
 @media screen and (max-width:740px) {
-      h2 { font-size: 32px; line-height: 39px; }
 
-      h3 { font-size: 19px; line-height: 29px;}
+h2 { font-size: 32px; line-height: 39px; }
+
+h3 { font-size: 19px; line-height: 29px;}
+
       
 }
